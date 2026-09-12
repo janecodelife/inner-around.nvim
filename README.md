@@ -12,27 +12,12 @@ It uses native Vim movements (`[[`, `]]`, etc.) to quickly select or operate on 
 
 ## 📦 Installation
 
-### Using [lazy.nvim](https://github.com)
-
-Add the following to your plugin specification. Because this plugin is designed to avoid implicit conflicts, you must invoke the `.setup()` function manually:
-
 ```lua
-{
-    "your-username/inner-around.nvim",
-    config = function()
-        require("inner-around").setup()
-    end
-}
-```
+vim.pack.add({
+	"https://github.com/janecodelife/inner-around.nvim",
+})
 
-*If testing locally, swap the repository string for your local directory path:*
-```lua
-{
-    dir = "~/path/to/inner-around.nvim",
-    config = function()
-        require("inner-around").setup()
-    end
-}
+require("inner-around").setup()
 ```
 
 ## ⌨️ Mappings
