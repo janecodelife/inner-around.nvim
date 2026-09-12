@@ -2,13 +2,12 @@
 
 local M = {}
 
--- 1. Define the selection logic for functions
 local function select_function(inner)
 	-- Start visual mode
 	vim.cmd("normal! v")
 
 	if inner then
-		-- "Inner" logic: Jump to the next closing brace, then to its matching opening brace
+		-- "Inner"
 		vim.cmd("normal! ]}vb[{")
 
 		-- Shrink selection by one line top and bottom to exclude the braces themselves
@@ -18,12 +17,11 @@ local function select_function(inner)
 			vim.cmd("normal! jook")
 		end
 	else
-		-- "Around" logic: Use ][ and [] to capture the whole function block
+		-- "Around"
 		vim.cmd("normal! ][v[]")
 	end
 end
 
--- 2. Wrap everything in a setup function to be triggered manually
 function M.setup()
 	-- Prevent multiple setups from overriding keymaps redundantly
 	if M.initialized then
