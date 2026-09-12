@@ -7,12 +7,6 @@ A lightweight, simple, and dependency-free Neovim plugin written in Lua that pro
 
 It uses native Vim movements (`[[`, `]]`, etc.) to quickly select or operate on function bodies and structures.
 
---- 
-
-💝 Support me by the only available way now: USDT to buy a new dev laptop. Info is below, 
-or contact me by 
-📩 email: janecodelife@gmail.com
-
 ---
 
 ## 🚀 Features
@@ -59,22 +53,6 @@ The plugin maps text objects in both **Visual** (`x`) and **Operator-pending** (
 | `yif`  | Operator | Yank (copy) inside the function |
 | `caf`  | Operator | Change around the function |
 | `cif`  | Operator | Change inside the function |
-
---- 
-
-## 💝 Support the Project
-
-> *This plugin is built entirely on developer insights gathered over **years of building real-world software** to catch common pain points, combined with **months of dedicated building and rigorous testing** to ensure it operates flawlessly.*
-
-If this utility boosts your everyday speed and eliminates annoying file search clutter, please consider buying me a coffee or supporting my continuous maintenance!
-
-You can tip or donate directly to my **TRON (TRX / USDT-TRC20)** crypto wallet address:
-## ☕☕☕☕ Support Me (Buy Devlopment Labtop ) By Coffee Via USDT ☕☕☕☕
-
-- **Network:** `TRX Tron (TRC20)`
-- **Address:** `TAFFjBP39Z86weL5dDU1A2251VrgPprDUj`
-
-> *Every bit of support fuels the expansion of this ecosystem and helps me write cleaner tools for all of us. Thank you for standing behind independent developers!* 🙏
 
 ---
 
